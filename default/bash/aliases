@@ -1,4 +1,7 @@
 # File system
+alias upd="sudo pacman -Syu"
+alias update="sudo pacman -Syyu"
+alias sps="sudo pacman -S"
 alias ls='eza -lh --group-directories-first --icons=auto'
 alias lsa='ls -a'
 alias lt='eza --tree --level=2 --long --icons --git'
